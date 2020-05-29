@@ -1,0 +1,532 @@
+/*======================= component =====================*/
+@media only screen and (max-width: 680px) {
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    p{
+        font-size: 20px !important;
+    }
+
+    h3{
+        font-size: 30px !important;
+    }
+
+    h4{
+        font-size: 20px !important;
+    }
+
+    /*.business-partner .banner-contents .post-sheep-container .post-sheep-item img{*/
+    /*    width: 40px;*/
+    /*    height: 40px;*/
+    /*}*/
+
+    /*.business-partner .banner-contents .post-sheep-container .post-sheep-item{*/
+    /*    height: 40px;*/
+    /*}*/
+
+    .business-partner .banner-contents .post-sheep-container .post-sheep-item h5{
+        font-size: 14px !important;
+    }
+
+    .business-partner .gift-pack .gifts .gift .contents h5{
+        font-size: 18px !important;
+    }
+
+    .business-partner .gift-pack .gifts .gift .contents h3{
+        font-size: 28px !important;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .image-text > p{
+        font-size: 13px !important;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+
+    .header .title-area .title{
+        line-height: 26px;
+    }
+
+    .header .sub-title{
+        line-height: 26px;
+    }
+
+    .preferred-card{
+        padding: 20px;
+        height: auto;
+    }
+
+    .preferred-card .header .left .shipping-method{
+        height: 10.4vw;
+    }
+
+    .preferred-card .header .left .productName{
+        margin-left: 10px;
+    }
+
+    .preferred-card .footer .left{
+        width: 100%;
+    }
+
+    .preferred-card .header .right h4{
+        text-align: center;
+    }
+
+    .preferred-card .header .right p{
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .preferred-card .footer .left .visitors .share-number h5{
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .v--modal-box .modal-body > h4{
+        font-size: 17px !important;
+    }
+
+    .v--modal-box .modal-body > p{
+        line-height: 18px !important;
+    }
+
+    .product-slider-dialog .v--modal-box .modal-body .VueCarousel-slide img{
+        height: 100%;
+    }
+
+    .invite-settle .header .title-area h3{
+        font-size: 22px !important;
+    }
+
+    .invite-settle .header .title-area h4{
+        font-size: 16px !important;
+    }
+
+    .invite-settle .header .back{
+        width: 25%;
+    }
+
+    .invite-settle .header .title-area{
+        width: 75%;
+    }
+
+    [type="radio"]:checked + label, [type="radio"]:not(:checked) + label{
+        font-size: 13px;
+    }
+
+    select{
+        font-size: 14px;
+    }
+
+    .select::after {
+        padding: 0px 23px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    h1{
+        font-size: 42px !important
+    }
+
+    h2{
+        font-size: 21px !important;
+        line-height: 24px !important;
+    }
+
+    h3{
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    h4{
+        font-size: 15px !important;
+        line-height: 22px !important;
+    }
+
+    h5{
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+
+    .header .back{
+        width: 40%;
+        height: 24px;
+    }
+
+    .header .back img{
+        width: 12px;
+        height: 24px;
+    }
+
+    .header .title-area{
+        width: 60%;
+    }
+
+    .cash .income .left p{
+        line-height: 28px;
+    }
+
+    .cash .income .left h1{
+        height: 40px;
+    }
+
+    .cash .income .right{
+        width: 100px;
+    }
+
+    .cash .income .right .round-button{
+        height: 40px;
+    }
+
+    .cash .income .right .round-button h4{
+        padding-top: 4px;
+    }
+
+    .top-earning-section .title h4{
+        line-height: 20px;
+    }
+
+    .earning-card .card-contents{
+        margin-top: 30px;
+    }
+
+    .earning-card .rank{
+        font-size: 13px !important;
+        line-height: 16px;
+    }
+
+    .earning-card .phone-number{
+        font-size: 13px !important;
+        line-height: 22px;
+    }
+
+    .earning-card .earning-value{
+        margin-top: 2.5vw;
+    }
+
+    .earning-card .yuan{
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+
+    .beginner-tutorial .header .back{
+        width: 40%;
+    }
+
+    .beginner-tutorial .header .title-area{
+        width: 60%;
+    }
+
+
+    .beginner-tutorial .tutorial-container .share-money{
+        font-size: 16px;
+    }
+
+
+    .invite-settle .invitation-area .cumulative-panel .item h2{
+        font-size: 21px !important;
+    }
+
+    .invite-settle .invitation-area .cumulative-panel .item p{
+        font-size: 13px !important;
+    }
+
+    .invite-settle .invitation-area .simple-step-area .bar{
+        font-size: 18px;
+    }
+
+    .invite-settle .invitation-area .simple-step-area .simple-step-panel .item > img{
+        margin-top: 5.5vw;
+    }
+
+    .invite-settle .invitation-area .qr-code-area .invite-code .invite-code-copy{
+        font-size: 12px;
+    }
+
+    .invite-settle .invitation-area .qr-code-area h4 br{
+        display: none;
+    }
+
+    .select{
+        font-size: 14px;
+        height: 22px;
+    }
+
+    .business-partner .banner-contents .city-selection .location-img{
+        height: 22px;
+    }
+
+    .business-partner .banner-contents .city-selection .select{
+        margin-left: 5px;
+    }
+
+    .business-partner .banner-contents .joined-counter h4{
+        font-size: 16px !important;
+    }
+
+    .business-partner .banner-contents .joined-counter .counter .counter-item h4{
+        line-height: 18px !important;
+    }
+
+    .business-partner .banner-contents .post-sheep-container .post-sheep-item{
+        /*display: contents;*/
+    }
+
+    .business-partner .banner-contents .post-sheep-container .post-sheep-item h5{
+        font-size: 10px !important;
+        line-height: 16px;
+        margin-left: 6px;
+    }
+
+    .business-partner .title-bar h3{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .business-partner .gift-pack .gifts{
+        padding: 0px 20px;
+        grid-gap: 10px;
+    }
+
+    .business-partner .gift-pack .gifts .gift .contents h3{
+        font-size: 18px !important;
+        line-height: 22px;
+    }
+
+    .business-partner .gift-pack .gifts .gift .contents h5{
+        font-size: 13px !important;
+        line-height: 18px;
+    }
+
+    .business-partner .gift-pack .gifts .gift .footer h5 span{
+        font-size: 30px;
+    }
+
+    .business-partner .our-brand .brands p{
+        margin-top: 0px;
+    }
+
+    .sharing-goods .goods-select-panel .select-item h4.active{
+        font-size: 16px !important;
+        line-height: 22px;
+    }
+
+    .sharing-goods .goods-select-panel .select-item h4{
+        font-size: 14px !important;
+        line-height: 22px;
+    }
+
+    .sharing-goods .goods-select-panel .select-item div.active{
+        width: 16.9vw;
+        height: 1.0666vw;
+    }
+
+    .sharing-goods .header .back{
+        width: 30%;
+    }
+
+    .sharing-goods .header .title-area{
+        width: 70%;
+    }
+
+    .sharing-goods .header .title-area h3{
+        font-size: 20px !important;
+    }
+
+    .sharing-goods .header .title-area h4{
+        font-size: 16px !important;
+    }
+
+    .sharing-goods .share-product-container .share-product .product-info .product-detail{
+        margin-left: 10px;
+    }
+
+    .sharing-goods .share-product-container .share-product .product-info .product-detail h5{
+        font-size: 12px !important;
+        line-height: 24px !important;
+    }
+
+    .sharing-goods .share-product-container .share-product .product-price .earn p{
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+
+    .beginner-tutorial .tutorial-container .share-money{
+        padding-top: 10px;
+    }
+
+    .banner-section .cash{
+        top: 24.4vw;
+    }
+
+    .business-partner .tutorial-container .video-area #play-video{
+        width: 48px;
+        height: 48px;
+    }
+
+    .business-partner .tutorial-container .video-area #play-video img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .business-partner .tutorial-container .video-comment {
+        margin: 1.333vw 1.3vw;
+    }
+
+    .business-partner .tutorial-container .video-comment p{
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+
+    .business-partner .tutorial-container .video-comment{
+        padding: 1.3vw 2.666vw;
+    }
+
+    .life-business-partner .partner-area .item h4{
+        line-height: 20px !important;
+    }
+
+    .life-business-partner .partner-contents .community-content h2{
+        font-size: 26px !important;
+        line-height: 14px !important;
+    }
+
+    .life-business-partner .partner-contents .community-card-container .community-card .text-area h3{
+        font-size: 17px !important;
+    }
+
+    .life-business-partner .partner-contents .community-card-container .community-card .text-area p{
+        font-size: 13px !important;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    h1{
+        font-size: 40px !important
+    }
+
+    h2{
+        font-size: 19px !important;
+        line-height: 24px !important;
+    }
+
+    h3{
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+
+    h4{
+        font-size: 13px !important;
+        line-height: 20px !important;
+    }
+
+    h5{
+        line-height: 16px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .image-text > p{
+        font-size: 12px !important;
+    }
+
+    .earning-card .yuan{
+        font-size: 12px !important;
+    }
+
+    .earning-card .rank{
+        font-size: 11px !important;
+        line-height: 14px !important;
+    }
+
+    .invite-settle .header .back{
+        width: 20%;
+    }
+
+    .invite-settle .header .title-area{
+        width: 80%;
+    }
+
+    .invite-settle .invitation-area .cumulative-panel .item p{
+        font-size: 11px !important;
+        margin-top: 5px;
+    }
+
+    .invite-settle .invitation-area .qr-code-area h3{
+        font-size: 17px !important;
+    }
+
+    .invite-settle .invitation-area .qr-code-area h4{
+        margin: 4vw 8vw 0vw 8vw;
+    }
+
+    .beginner-tutorial .tutorial-container .share-money{
+        line-height: 36px;
+    }
+
+    .business-partner .merchant-partner-area .partners .image-text p{
+        font-size: 11px !important;
+    }
+
+    .sharing-goods .share-product-container .share-product .product-price .earn p{
+        font-size: 12px !important;
+    }
+
+    .sharing-goods .goods-select-panel .select-item h4.active{
+        font-size: 15px !important;
+    }
+
+    /*.business-partner .tutorial-container .video-comment{*/
+    /*    margin: 1.2vw 1.1vw;*/
+    /*}*/
+
+    .business-partner .tutorial-container .video-comment p{
+        font-size: 11px !important;
+        line-height: 16px !important;
+    }
+
+    .life-business-partner .partner-contents .community-card-container .community-card .text-area p{
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .business-partner .tutorial-container .video-comment{
+        margin: 1.2vw 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .business-partner .banner-contents .post-sheep-container .post-sheep-item h5{
+        font-size: 8px !important;
+    }
+
+    .business-partner .tutorial-container .video-comment p{
+        font-size: 9px !important;
+    }
+
+    .business-partner .tutorial-container .video-comment{
+        padding: 1vw 2.666vw;
+    }
+}

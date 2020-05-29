@@ -1,0 +1,1349 @@
+
+/* ========================== reset css ===================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ======================== custom css ========================== */
+
+@font-face {
+    font-family: "PingFang SC";
+    src: url("../fonts/PingFang SC Regular.eot");
+    src: url("../fonts/PingFang SC Regular.eot?#") format("embedded-opentype"),
+    url("../fonts/PingFang SC Regular.woff") format("woff"),
+    url("../fonts/PingFang SC Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DIN Bold";
+    src: url("../fonts/DIN-Bold.eot");
+    src: url("../fonts/DIN-Bold.eot?#") format("embedded-opentype"),
+    url("../fonts/DIN-Bold.woff") format("woff"),
+    url("../fonts/DIN-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "YouSheBiaoTiHei";
+    src: url("../fonts/YouSheBiaoTiHei-2.ttf") format("truetype");
+}
+
+body{
+    font-family: "PingFang SC";
+    font-style: normal;
+    line-height:40px;
+}
+
+p{
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 0px !important;
+}
+
+h1{
+    font-size: 76px !important;
+}
+
+h2{
+    font-size: 36px !important;
+}
+
+h3{
+    font-size: 34px !important;
+}
+
+h4{
+    font-size: 28px !important;
+}
+
+h5{
+    font-size: 22px !important;
+}
+
+.container{
+    width: 100%;
+}
+
+.mobile-view{
+    width: 100%;
+    margin: 0 auto;
+    font-family: "PingFang SC";
+    /*background-color: #F5F5F5;*/
+    /*padding-bottom: 30px;*/
+    /*opacity: 0.5;*/
+    /*background: url("../img/make_money/1赚呗3.png") no-repeat;*/
+    /*background-size: 100% 100%;*/
+}
+
+.mobile-view > img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.mobile-view section{
+    position: relative;
+}
+
+.mobile-view .contents{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 12.8vw 3.44vw 5.33vw 3.44vw;
+    height: auto;
+    z-index: 999;
+}
+
+.mobile-view .contents.make-money{
+    background: url("../img/make_money/contents.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.mobile-view .banner-section > img{
+    width: 100%;
+    height: 51.333vw;
+}
+
+.mobile-view .banner-section .contents .circle{
+    width:5.0666vw;
+    height:5.0666vw;
+    background:radial-gradient(circle,rgba(252,205,181,1),rgba(252,133,54,1));
+    box-shadow:3px 5px 22px 0px rgba(0, 0, 0, 0.11);
+    border-radius:50%;
+    position: absolute;
+    top: 16vw;
+    left: 4.5333vw;
+}
+
+.banner-section .cash{
+    position: absolute;
+    top: 26.2vw;
+    height: calc(100% - 24.4vw);
+    width: 100%;
+}
+
+.cash .income{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 7.2vw;
+}
+
+.cash .income .left h1{
+    font-family: "DIN Bold";
+    line-height: 40px;
+}
+
+.cash .income .left p{
+    font-family: "PingFang SC";
+    font-weight: 400;
+    opacity: 0.8;
+    line-height: 40px;
+    margin-top: 1vw;
+}
+
+.cash .income .right{
+    width: 140px;
+}
+
+.cash > img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5vw;
+    width: 40.66vw;
+    height: 3.546vw;
+}
+
+.image-text-grounp-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 6vw 5vw;
+}
+
+.top-earning-section{
+    background: #FFEBE0;
+    margin: 0px 2.666vw;
+    border-radius: 8px;
+    padding: 5.333vw;
+}
+
+.top-earning-section .title{
+    color: #FD561F;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.top-earning-section .title .vertical-line{
+    width: 5.733vw;
+    height: 1px;
+    /*border-bottom: 1px solid #fd561f;*/
+    background: #fd561f;
+    margin: 0px 2.66vw;
+}
+
+.top-earning-section .title h4{
+    font-weight:400;
+    color:rgba(253,86,31,1);
+    line-height:40px;
+}
+
+.top-earning-section .title p{
+
+}
+
+.top-earning-section .earning-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.733vw;
+    margin-top: 10.666vw;
+}
+
+.preferred-section{
+    padding: 0px 2.666vw;
+    margin-top: 8.266vw;
+}
+
+
+.preferred-section .header .left{
+    font-weight:600;
+    color:rgba(17,17,17,1);
+}
+
+.preferred-section .header .right{
+    display: flex;
+    align-items: center;
+}
+
+.preferred-section .header .right img{
+    width: 4.133vw;
+    height: 4.133vw;
+}
+
+.preferred-section .header .right span{
+    font-weight:400;
+    color:rgba(85,85,85,1);
+    margin-left: 10px;
+}
+
+.preferred-section .preferred-card-group {
+    margin-top: 3vw;
+}
+
+.mobile-view .beginner-tutorial .contents{
+    padding-top: 15vw;
+    background: #FFF;
+}
+
+.beginner-tutorial .contents{
+    height: auto;
+}
+
+.beginner-tutorial .tutorial-container{
+    background: #0040CA;
+    margin-top: 25.86vw;
+    padding-bottom: 8.667vw;
+    min-height: calc( 100vh - 25.86vw );
+    position: relative;
+}
+
+.beginner-tutorial .tutorial-container > img{
+    width: 100%;
+}
+
+.beginner-tutorial .tutorial-container .video-area{
+    position: absolute;
+    width: 86.666vw;
+    left: 50%;
+    top: 49.5vw;
+    transform: translateX(-50%);
+}
+
+.beginner-tutorial .tutorial-container .video-area > img{
+    width: 100%;
+    height: 75vw;
+}
+
+.beginner-tutorial .tutorial-container .video-area #video-player-for-mobile{
+    position: absolute;
+    left: 3vw;
+    width: calc(100% - 6vw);
+    top: 3vw;
+    height: 54vw;
+    object-fit: cover;
+}
+
+.video-area{
+    position: relative;
+}
+
+.video-area #play-video{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 24vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-area #play-video img{
+    width: 24px;
+    height: 24px;
+}
+
+.business-partner .tutorial-container .video-area #play-video{
+    top: 20vw;
+}
+
+.beginner-tutorial .tutorial-container .share-money{
+    background: url("../img/beginner_tutorial/圆角矩形 7 拷贝@2x.png");
+    width: calc(100% - 13.333vw);
+    height: 14.666vw;
+    background-size: 100% 100%;
+    font-size:30px;
+    font-weight:400;
+    color:rgba(157,63,0,1);
+    line-height:42px;
+    text-align: center;
+    padding-top: 4.666vw;
+    cursor: pointer;
+    margin: 22.8vw 6.666vw 0vw 6.666vw;
+}
+
+
+.invite-settle .contents{
+    height: auto;
+    background: #FFF;
+}
+
+.invite-settle .container{
+    margin-top: 22.666vw;
+    position: relative;
+    padding: 0px;
+    background: url("../img/invite_settle/组 27.png") no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 100%;
+}
+
+.invite-settle .container > img{
+    width: 100%;
+}
+
+.invite-settle .header .back{
+    width: 30%;
+}
+
+.invite-settle .header .title-area{
+    width: 70%;
+}
+
+.invite-settle .invitation-area{
+    width: calc( 100% - 6.4vw );
+    margin: 0px 3.2vw;
+    padding-top: 48.6vw;
+    padding-bottom: 4.8vw;
+}
+
+.invite-settle .invitation-area .cumulative-panel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgba(255,255,255,1);
+    border-radius: 2.666vw;
+    grid-gap: 6.133vw;
+    padding: 6.7333vw 9.666vw;
+}
+
+.invite-settle .invitation-area .cumulative-panel .item{
+    text-align: center;
+}
+
+.invite-settle .invitation-area .cumulative-panel .item h2{
+    font-weight:600;
+    color:rgba(51,51,51,1);
+    font-size: 42px !important;
+}
+
+.invite-settle .invitation-area .cumulative-panel .item p{
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.invite-settle .invitation-area .simple-step-area{
+    margin-top: 7.729vw;
+    position: relative;
+}
+
+.invite-settle .invitation-area .simple-step-area .bar{
+    background: url("../img/invite_settle/bar.png") no-repeat;
+    background-size: 100% 100%;
+    width: 73%;
+    height: 9.333vw;
+    position: absolute;
+    top: -3.14vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:34px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    display: block;
+    padding-top: 1.333vw;
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel{
+    display: flex;
+    background:rgba(255,255,255,1);
+    border-radius: 2.666vw;
+    padding: 10vw 6vw 5.666vw 6vw;
+    align-items: center;
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel .item{
+    text-align: center;
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel .item:nth-child(odd){
+    width: 25%;
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel .item:nth-child(even){
+    width: 12.5%;
+    margin-top: -40px;
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel .item .image-text p{
+    margin-top: 0vw;
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel .item > img{
+    width: 4.1333vw;
+    height: 4.4vw;
+    margin-top: 1.2vw
+}
+
+.invite-settle .invitation-area .simple-step-area .simple-step-panel .item .image-text > img{
+    width: 10.8vw;
+    height: 10.8vw;
+}
+
+.invite-settle .invitation-area .qr-code-area{
+    background:rgba(255,255,255,1);
+    border-radius: 2.666vw;
+    margin-top: 3.333vw;
+    text-align: center;
+    padding: 7.246vw;
+}
+
+.invite-settle .invitation-area .qr-code-area h3{
+    font-weight:600;
+    color:rgba(51,51,51,1);
+}
+
+.invite-settle .invitation-area .qr-code-area .scan-wechat{
+    background:rgba(250,250,250,1);
+    border:1px solid rgba(237, 237, 237, 1);
+    border-top-left-radius: 2.666vw;
+    border-top-right-radius: 2.666vw;
+    margin-top: 3.333vw;
+    padding: 0vw 4.4vw 1vw 4.4vw;
+    width: 28.5333vw;
+    height: 6.666vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.invite-settle .invitation-area .qr-code-area .scan-wechat p{
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.invite-settle .invitation-area .qr-code-area > img{
+    width: 34.666vw;
+    height: 34.666vw;
+    cursor: pointer;
+}
+
+.invite-settle .invitation-area .qr-code-area h4{
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:38px;
+    margin: 4vw 7vw 0vw 7vw;
+}
+
+.invite-settle .invitation-area .qr-code-area .invite-code{
+    background:rgba(250,250,250,1);
+    border:1px solid rgba(217, 217, 217, 1);
+    border-radius: 2.666vw;
+    position: relative;
+    padding: 4.83vw;
+    margin: 6vw 6vw 0vw 6vw;
+    height: 15.6vw;
+    /*-webkit-box-shadow: inset 0px 2px 11px 0px rgba(0,0,0,0.38);*/
+    /*-moz-box-shadow: inset 0px 2px 11px 0px rgba(0,0,0,0.38);*/
+    /*box-shadow: inset 0px 2px 11px 0px rgba(0,0,0,0.38);*/
+}
+
+.invite-settle .invitation-area .qr-code-area .invite-code h2{
+    font-weight: 600;
+}
+
+.invite-settle .invitation-area .qr-code-area .invite-code .invite-code-copy{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background:rgba(250,250,250,1);
+    border:1px solid rgba(217, 217, 217, 1);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-left-radius: 2.666vw;
+    border-bottom-right-radius: 2.666vw;
+    padding: 0.72vw 2.5vw;
+}
+
+.invite-settle .invitation-area .qr-code-area .round-button{
+    height: 13.28vw;
+    margin: 6vw 6vw 0vw 6vw;
+    padding: 4.347vw;
+}
+
+.mobile-view .business-partner .contents{
+    height: auto;
+    background: #FFF;
+}
+
+.business-partner{
+    font-family: "PingFang SC";
+}
+
+.business-partner .banner{
+    margin-top: 22.666vw;
+    position: relative;
+}
+
+.business-partner .banner > img{
+    width: 100%;
+}
+
+.business-partner .banner .banner-contents{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 3.333vw;
+}
+
+.business-partner .banner-contents .city-selection{
+    display: flex;
+    align-items: center;
+}
+
+.business-partner .banner-contents .city-selection .location-img{
+    height: 26px;
+}
+
+.business-partner .banner-contents .city-selection .location-img img{
+    width: 2.9333vw;
+    height: 3.4666vw;
+}
+
+.business-partner .banner-contents .city-selection .select{
+    margin-left: 20px;
+}
+
+.business-partner .banner-contents .joined-counter{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    justify-content: center;
+    margin-top: 32vw;
+}
+
+.business-partner .banner-contents .joined-counter h4{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:38px;
+}
+
+.business-partner .banner-contents .joined-counter .counter{
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.business-partner .banner-contents .joined-counter .counter .counter-item{
+    /*background:linear-gradient(0deg,rgba(206,227,255,1),rgba(254,251,244,1));*/
+    background: #FFF;
+    opacity:0.9;
+    border-radius: 0.5333vw;
+    width: 4vw;
+    height: 4.5333vw;
+    margin: 0px 1px;
+    text-align: center;
+}
+
+.business-partner .banner-contents .joined-counter .counter .counter-item h4 {
+    font-weight: 400;
+    color: rgba(28, 124, 255, 1);
+    line-height: 32px;
+}
+
+.business-partner .banner-contents .post-sheep-container{
+    margin-top: 7.333vw;
+}
+
+.business-partner .banner-contents .post-sheep-container .post-sheep-item{
+    background:rgba(255,255,255,0.2);
+    border-radius:30px;
+    height: 8vw;
+    display: flex;
+    /*width: 24.9333vw;*/
+    align-items: center;
+    margin: 0px 0.8vw;
+}
+
+.business-partner .banner-contents .post-sheep-container .post-sheep-item img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.business-partner .banner-contents .post-sheep-container .post-sheep-item h5{
+    margin-left: 12px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    font-size: 18px !important;
+}
+
+.business-partner .tutorial-container{
+    margin: 4.8666vw 3.2vw;
+    width: 93.6vw;
+    height: 47.066vw;
+}
+
+.business-partner .tutorial-container .video-area{}
+
+.business-partner .tutorial-container .video-area video{
+    width: 93.6vw;
+    background:rgba(255,255,255,1);
+    box-shadow:5px 11px 38px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1.7333vw;
+    border: 1.333vw solid #FFF;
+    height: 47.066vw;
+    object-fit: cover;
+}
+
+.business-partner .tutorial-container .video-comment{
+    position: absolute;
+    margin: 1.333vw;
+    background: url("../img/business_partner/video_comment.png") no-repeat;
+    width: 36.1333vw;
+    height: 6.8vw;
+    background-size: 100% 100%;
+    border-bottom-right-radius: 1.7333vw;
+    padding: 0.5vw 2vw;
+}
+
+
+.business-partner .tutorial-container .video-comment p{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.business-partner .title-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-partner .title-bar img{
+    width: 9.2vw;
+    height: 7.333vw;
+}
+
+.business-partner .title-bar h3{
+    font-weight:600;
+    color:rgba(34,34,34,1);
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.business-partner .merchant-partner-area{
+    margin-top: 12.2666vw;
+}
+
+.business-partner .merchant-partner-area .partners{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 8.2666vw;
+    margin-top: 7.3333vw;
+    grid-gap: 7.2vw;
+    grid-row-gap: 3.6vw;
+}
+
+.business-partner .gift-pack{
+    margin-top: 12.666vw;
+}
+
+.business-partner .gift-pack .gifts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 4.5333vw;
+    margin-top: 7.3333vw;
+    grid-gap: 4.1333vw;
+}
+
+.business-partner .gift-pack .gifts .gift{
+    position: relative;
+}
+
+.business-partner .gift-pack .gifts .gift img{
+    width: 43.4666vw;
+    height: 56.8vw;
+}
+
+.business-partner .gift-pack .gifts .gift .contents{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 6vw 5.5vw;
+    background: transparent;
+    z-index: 10;
+}
+
+.business-partner .gift-pack .gifts .gift .contents h3{
+    font-weight:600;
+    color:rgba(51,51,51,1);
+    line-height:38px;
+}
+
+.business-partner .gift-pack .gifts .gift .contents h5{
+    margin-top: 2.5333vw;
+    line-height:32px;
+    height: 5vw;
+}
+
+.business-partner .gift-pack .gifts .gift .contents h5.blue-color{
+    background:rgba(255,65,28,0);
+    border:1px solid rgba(28, 124, 255, 1);
+    border-radius:4px;
+    font-weight:400;
+    color:rgba(28,124,255,1);
+    text-align: center;
+}
+
+.business-partner .gift-pack .gifts .gift .contents h5.yellow-color{
+    font-weight:400;
+    color:rgba(255,97,1,1);
+    background:rgba(255,65,28,0);
+    border:1px solid rgba(255, 65, 28, 1);
+    border-radius:4px;
+    text-align: center;
+}
+
+.business-partner .gift-pack .gifts .gift .footer{
+    position: absolute;
+    bottom: 5.2vw;
+    width: 100%;
+    text-align: center;
+}
+
+.business-partner .gift-pack .gifts .gift .footer h5{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:38px;
+}
+
+.business-partner .gift-pack .gifts .gift .footer h5 span{
+    font-family: "DIN Bold";
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    line-height:38px;
+    font-size: 50px;
+}
+
+.business-partner .our-brand{
+    margin-top: 12.666vw;
+}
+
+.business-partner .our-brand .brands{
+    margin-top: 7.3333vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 13.666vw;
+    grid-gap: 12.4vw;
+}
+
+.business-partner .our-brand .brands img{
+    width: 14vw;
+    height: 14vw;
+}
+
+.business-partner > .footer{
+    margin: 8vw auto;
+}
+
+.business-partner .footer label p{
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:38px;
+}
+
+.business-partner .footer .radio-button{
+    text-align: center;
+}
+
+.business-partner .merchant-partner-area .partners .image-text p{
+    font-size: 22px;
+}
+
+.business-partner .footer .round-button{
+    margin: 6.666vw 3.333vw;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:38px;
+    height: 11.7333vw;
+    padding-top: 3vw;
+}
+
+.sharing-goods{
+    padding-bottom: 20px;
+    background-color: #F5F5F5;
+}
+
+.sharing-goods > img{
+    width: 100%;
+    height: 100%;
+}
+
+.sharing-goods .contents{
+    height: 25.73vw;
+    background: url("../img/sharing_goods/矩形 1 拷贝 2@2x.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.sharing-goods .goods-select-panel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 3.2vw;
+    background:rgba(255,255,255,1);
+    border-radius: 1.6vw;
+    padding: 3.533vw 6.8vw;
+    text-align: center;
+    margin-top: -4.5vw;
+    z-index: 1000;
+    position: fixed;
+    width: calc(100% - 6.4vw);
+}
+
+.sharing-goods .goods-select-panel .select-item{
+    cursor: pointer;
+}
+
+.sharing-goods .goods-select-panel .select-item h4{
+    font-weight:400;
+    color:rgba(34,34,34,1);
+    line-height:40px;
+}
+
+.sharing-goods .goods-select-panel .select-item h4.active{
+    font-weight:600;
+    color:rgba(34,34,34,1);
+    line-height:40px;
+    font-size: 30px !important;
+}
+
+.sharing-goods .goods-select-panel .select-item div.active{
+    height:8px;
+    background:linear-gradient(45deg,rgba(248,128,0,1),rgba(255,84,0,1));
+    opacity:0.6;
+    border-radius:4px;
+    width: 127px;
+    margin: 0 auto;
+}
+
+.sharing-goods .share-product-container{
+    margin: 11.8vw 3.2vw 1vw 3.2vw;
+}
+
+.sharing-goods .share-product-container .share-product{
+    background:rgba(255,255,255,1);
+    border-radius: 1.6vw;
+    padding: 2.666vw;
+    margin-bottom: 2.666vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-info{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-image img{
+    width: 24vw;
+    height: 24vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-detail{
+    margin-left: 30px;
+    width: 100%;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-detail h4{
+    font-weight:400;
+    color:rgba(34,34,34,1);
+    line-height:42px;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-detail h5{
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:38px;
+
+}
+
+
+.sharing-goods .share-product-container .share-product .product-info .product-detail p{
+    font-weight:400;
+    color:rgba(34,34,34,1);
+    line-height:38px;
+    display: inline-block;
+    margin-top: 5.8666vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-detail span h2{
+    display: inline-block;
+    font-weight:400;
+    color:rgba(34,34,34,1);
+    line-height:38px;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-buy{
+    position: absolute;
+    right: 0;
+    top: 15vw;
+    cursor: pointer;
+}
+
+.sharing-goods .share-product-container .share-product .product-info .product-buy img{
+    width: 10.8vw;
+    height: 10.8vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-price .earn{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 211, 57, 1);
+    border-radius: 3.2vw;
+    padding: 0.4vw 1.2vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-price .earn img{
+    width: 4vw;
+    height: 4vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-price .earn p{
+    font-weight:400;
+    color:rgba(255,119,49,1);
+    line-height:38px;
+    margin-left: 2.4vw;
+}
+
+.sharing-goods .share-product-container .share-product .product-price .promoted p{
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:38px;
+}
+
+.sharing-goods .header .back{
+    width: 35%;
+}
+
+.sharing-goods .header .title-area{
+    width: 65%;
+}
+
+.partner-agreement .agreement-container{
+    margin-top: 25.86vw;
+    min-height: calc( 100vh - 25.86vw );
+    background: #F5F5F5;
+    padding: 4.8vw 3.333vw;
+}
+
+.partner-agreement .agreement-container h4{
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:46px;
+}
+
+.partner-agreement .contents .header .back{
+    width: 28%;
+}
+
+.partner-agreement .contents .header .title-area{
+    width: 72%;
+}
+
+.life-business-partner .contents{
+    height: auto;
+    background: #FFFFFF;
+}
+
+.life-business-partner .banner{
+    margin-top: 22.666vw;
+    position: relative;
+}
+
+.life-business-partner .banner img{
+    width: 100%;
+}
+
+.life-business-partner .banner .banner-title{
+    position: absolute;
+    top: 31.333vw;
+    left: 15.2vw;
+    width: 69.6vw;
+    height: 8vw;
+    background:rgba(255,255,255,0.2);
+    box-shadow:3px 3px 20px 0px rgba(41,41,41,0.1);
+    border-radius:30px;
+    text-align: center;
+}
+
+.life-business-partner .banner .banner-title p{
+    color: #FFFFFF;
+    line-height:42px;
+    padding: 1.4vw 0px;
+}
+
+.life-business-partner .banner .banner-title p span{
+    color: #FFE400;
+}
+
+.life-business-partner .partner-area{
+    width: 92vw;
+    height: 39.0666vw;
+    margin-left: 4vw;
+    box-shadow:5px 6px 28px 0px rgba(41,41,41,0.12);
+    border-radius: 1.6vw;
+    display: flex;
+    padding: 5.333vw 4vw;
+    margin-top: -26.6666vw;
+    z-index: 20;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.life-business-partner .partner-area .item:nth-child(odd){
+    width: 23.2vw;
+}
+
+.life-business-partner .partner-area .item:nth-child(odd) img{
+    width: 23.2vw;
+    height: 23.2vw;
+}
+
+.life-business-partner .partner-area .item:nth-child(even){
+    width: 6.5333vw;
+    height: 5.3333vw;
+    margin-top: 8vw;
+}
+
+.life-business-partner .partner-area .item:nth-child(even) img{
+    width: 6.5333vw;
+    height: 5.3333vw;
+}
+
+.life-business-partner .partner-area .item h4{
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height: 42px;
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.life-business-partner .partner-area .item .round-item p{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:42px;
+}
+
+.life-business-partner .partner-area .item .round-item{
+    position: relative;
+    height: 23.2vw;
+}
+
+.life-business-partner .partner-area .item p{
+    font-weight:400;
+    color:rgba(55,55,55,1);
+    line-height:42px;
+    text-align: center;
+}
+
+.life-business-partner .partner-area .item p span{
+    color: #FF4318;
+}
+
+.life-business-partner .partner-contents{
+    margin: 7.7333vw 4vw;
+}
+
+.life-business-partner .partner-contents .community-partner{
+    margin: 0px 13.3333vw;
+    position: relative;
+    height: 6.666vw;
+}
+
+.life-business-partner .partner-contents .community-partner > img{
+    width: 100%;
+    height: 6.666vw;
+}
+
+.life-business-partner .partner-contents .community-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.life-business-partner .partner-contents .community-content h2{
+    font-family: "YouSheBiaoTiHei";
+    font-weight:400;
+    color:rgba(34,34,34,1);
+    line-height:42px;
+    font-size: 46px !important;
+}
+
+.life-business-partner .partner-contents .community-content img{
+    width: 4.1333vw;
+    height: 2.2666vw;
+}
+
+.life-business-partner .partner-contents .community-card-container{
+    margin-top: 7.3333vw;
+}
+
+.life-business-partner .partner-contents .community-card-container .community-card{
+    margin-bottom: 2.666vw;
+    height: 24.4vw;
+    width: 100%;
+    box-shadow:3px 3px 20px 0px rgba(41,41,41,0.1);
+    border-radius: 1.6vw;
+    padding: 7.4666vw 0px 7.4666vw 8.5333vw;
+    display: flex;
+    align-items: center;
+}
+
+.life-business-partner .partner-contents .community-card-container .community-card .text-area{
+    margin-left: 5.0666vw;
+}
+
+.life-business-partner .partner-contents .community-card-container .community-card > img{
+    width: 9.333vw;
+    height: 9.333vw;
+}
+
+.life-business-partner .partner-contents .community-card-container .community-card .text-area h3{
+    font-weight:600;
+    color:rgba(34,34,34,1);
+    line-height:42px;
+}
+
+.life-business-partner .partner-contents .community-card-container .community-card .text-area p{
+    font-weight:400;
+    color:rgba(119,119,119,1);
+    line-height:42px;
+    margin-top: 2vw;
+}
+
+.life-business-partner .partner-contents .qr-code-area{
+    margin: 10.666vw 0px;
+    text-align: center;
+}
+
+.life-business-partner .partner-contents .qr-code-area .down-arrow{
+    width: 5.2vw;
+    height: 4.2666vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.333vw;
+}
+
+.life-business-partner .partner-contents .qr-code-area .qr-code{
+    width: 24.4vw;
+    height:24.4vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.6vw;
+}
+
+.life-business-partner .partner-contents .qr-code-area .save-qr-code-button{
+    margin: 0 auto;
+    margin-top: 3.2vw;
+    background: #FF7022;
+    width: 26.9333vw;
+    height:5.333vw;
+    background:rgba(255,112,34,1);
+    border-radius: 1.6vw;
+}
+
+.life-business-partner .partner-contents .qr-code-area .save-qr-code-button p{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:38px;
+}
+.life-business-partner .partner-contents .qr-code-area .startup-mentor{
+    margin-top: 1.466vw;
+}
+
+.product-slider-dialog .slider-show .carousel-3d-slide{
+    background: #FFF;
+    border-radius: 1.6vw;
+}
+
+.invite-settle .product-slider-dialog{
+    position: fixed;
+}
+
+.product-slider-dialog .slider-show .mobile-swipe-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.product-slider-dialog .slider-show .mobile-swipe-item .id-area{
+    padding: 3.8666vw 4.2666vw;
+}
+
+.product-slider-dialog .slider-show .mobile-swipe-item .footer{
+    position: absolute;
+    bottom: 5.7333vw;
+    width: 100%;
+    text-align: center;
+}
+
+.product-slider-dialog .slider-show .mobile-swipe-item .footer .image-area{
+    width: 16.9333vw;
+    height: 16.9333vw;
+    background: #D3D3D3;
+    margin: 0 auto;
+    margin-top: 3.0666vw;
+    margin-bottom: 2.666vw;
+}
+
+.product-slider-dialog .slider-show h3{
+    text-align: center;
+    margin-bottom: 5.5333vw;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+}
+
+.product-slider-dialog .slider-show > .footer{
+    margin-top: 5.333vw;
+    width: 100%;
+
+}
+
+.product-slider-dialog .slider-show > .footer h3{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+}
+
+.product-slider-dialog .slider-show > .footer h3 span{
+    color: #FFC600;
+    font-weight: 600;
+}
+
+.product-slider-dialog .slider-show > .footer .payment-method{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0vw 12.666vw 0px 12.666vw;
+}
+
+.product-slider-dialog .slider-show > .footer .payment-method .image-text img{
+    width: 10.666vw;
+    height: 10.666vw;
+}
+
+.product-slider-dialog .slider-show > .footer .payment-method .image-text p{
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin-top: 3px;
+}
+
+.partner-agreement .contents{
+    height: auto;
+    background: #FFF;
+}
+
+.invite-settle .invitation-area .qr-code-area a{
+    text-decoration: none;
+}
+
+.invite-settle .invitation-area .qr-code-area a:hover{
+    text-decoration: none;
+}
